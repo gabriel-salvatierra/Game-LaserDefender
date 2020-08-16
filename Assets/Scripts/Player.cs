@@ -51,6 +51,7 @@ public class Player : MonoBehaviour {
         health -= damageDealer.GetDamage();
         damageDealer.Hit();
         if (health <= 0) {
+            health = 0;
             Die();
         }
     }
@@ -59,6 +60,10 @@ public class Player : MonoBehaviour {
         FindObjectOfType<Level>().LoadGameOver();
         Destroy(gameObject);
         AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
+    }
+
+    public int GetHealth() {
+        return health;
     }
 
     private void Fire() {

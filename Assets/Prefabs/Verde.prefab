@@ -109,6 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 300
+  scoreValue: 200
   deathVFX: {fileID: 8895285103657136845, guid: 639c434d874a9e64da80c94a934c7cf6,
     type: 3}
   durationOfExplosion: 1
