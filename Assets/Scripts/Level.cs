@@ -8,6 +8,10 @@ public class Level : MonoBehaviour {
     [SerializeField] float delayInSeconds = 2f;
     GameSession gameSession;
 
+    private void Awake() {
+        Screen.SetResolution(576, 1024, true);
+    }
+
     public void LoadStartMenu() {
         SceneManager.LoadScene(0);
     }

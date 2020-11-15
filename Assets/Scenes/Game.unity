@@ -528,6 +528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1250447702348655229, guid: 52ae3a70e281633419a4321756baa5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1250447702348655225, guid: 52ae3a70e281633419a4321756baa5ee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -633,6 +638,54 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1250447702348655225, guid: 52ae3a70e281633419a4321756baa5ee,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250447702348655225, guid: 52ae3a70e281633419a4321756baa5ee,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250447702348655225, guid: 52ae3a70e281633419a4321756baa5ee,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250447702348655224, guid: 52ae3a70e281633419a4321756baa5ee,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250447702348655224, guid: 52ae3a70e281633419a4321756baa5ee,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2831771867710346226}
+    - target: {fileID: 1250447702348655224, guid: 52ae3a70e281633419a4321756baa5ee,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250447702348655231, guid: 52ae3a70e281633419a4321756baa5ee,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250447702348655231, guid: 52ae3a70e281633419a4321756baa5ee,
+        type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 77757974, guid: 52ae3a70e281633419a4321756baa5ee, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979468738, guid: 52ae3a70e281633419a4321756baa5ee, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52ae3a70e281633419a4321756baa5ee, type: 3}
 --- !u!1001 &2831771867710346225
@@ -704,6 +757,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83043855f8a659a48a06995bc63fb514, type: 3}
+--- !u!20 &2831771867710346226 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2831771868135189390, guid: 83043855f8a659a48a06995bc63fb514,
+    type: 3}
+  m_PrefabInstance: {fileID: 2831771867710346225}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3630280579154725190
 PrefabInstance:
   m_ObjectHideFlags: 0
